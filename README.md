@@ -25,7 +25,7 @@ To run this app locally, you need:
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/yourusername/splitwiselyai-analyzer.git
+    git clone https://github.com/nidish40/splitwiselyai-analyzer.git
     ```
 
 2. Navigate to the project folder:
