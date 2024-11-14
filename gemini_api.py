@@ -4,6 +4,7 @@ from google.api_core import retry
 import pandas as pd
 from dotenv import load_dotenv
 import os
+import streamlit as st
 
 genai.configure(api_key=st.secrets["api_keys"]["gemini"])
 model = genai.GenerativeModel("gemini-pro")
