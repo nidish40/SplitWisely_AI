@@ -5,7 +5,7 @@ import pandas as pd
 from dotenv import load_dotenv
 import os
 
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key=st.secrets["api_keys"]["gemini"])
 model = genai.GenerativeModel("gemini-pro")
 
 def categorize_transactions_with_gemini(df):
